@@ -19,7 +19,7 @@ void swap_nodes(listint_t *a, listint_t *b)
 }
 /**
  * insertion_sort_list - sorts a doubly linked list of integers
- * 						 in ascending order
+ *                       in ascending order
  * @list: double pointer to the head of a doubly linked list
  */
 
