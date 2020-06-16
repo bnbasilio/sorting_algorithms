@@ -34,7 +34,7 @@ void insertion_sort_list(listint_t **list)
 	while (marker)
 	{
 		sorter = marker;
-		marker = marker->i;
+		marker = marker->next;
 		while (sorter && sorter->prev)
 		{
 			if (sorter->prev->n > sorter->n)
