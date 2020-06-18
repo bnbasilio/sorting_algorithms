@@ -17,8 +17,10 @@ void swap(int *x, int *y)
 /**
  * partition - function to set an element as pivot and places numbers smaller
  *             than pivot element to its left and bigger numbers to its right
+ * @array: array of integers
  * @low: beginning of the array
  * @high: end of the array
+ * @size: size of the array
  *
  * Return: index of last swapped integer
  */
@@ -65,6 +67,7 @@ void quick_sort(int *array, size_t size)
  * @array: array of integers
  * @low: beginning of the array
  * @high: end of the array
+ * @size: size of the array
  */
 
 void actually_sort(int *array, int low, int high, size_t size)
